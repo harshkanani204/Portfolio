@@ -1,5 +1,3 @@
-/* styles.css */
-
 /* Reset default margin and padding */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -53,21 +51,76 @@ body, h1, h2, h3, p, ul, li {
     margin-bottom: 10px;
   }
   
-  /* Style the projects section */
-  .project {
-    margin-bottom: 20px;
+  /* Style the home section */
+  #home {
+    text-align: center;
   }
   
-  .project h3 {
-    margin-bottom: 5px;
+  /* Style the resume section */
+  #resume {
+    font-size: 16px;
+    line-height: 1.6;
   }
   
-  .project p {
+  #resume h3 {
+    font-size: 20px;
     margin-bottom: 10px;
   }
   
-  .project a {
+  #resume ul {
+    margin-bottom: 10px;
+  }
+  
+  #resume ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Style the projects section */
+  #projects {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  #projects .project {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #projects .project h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #projects .project p {
+    margin-bottom: 10px;
+  }
+  
+  #projects .project a {
     color: #333;
     text-decoration: none;
+  }
+  
+  /* Style the contact section */
+  #contact {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  #contact p {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 0;
   }
   
